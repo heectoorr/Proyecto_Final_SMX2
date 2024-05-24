@@ -1,0 +1,96 @@
+#Noticia1 img{
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    width: 600px;
+}
+
+#Noticia1{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-right: 400px;
+}
+
+#Noticia2{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+
+}
+
+#Noticia2{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#Noticia2 img{
+    width: 600px;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+#Logo{
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    
+}
+
+h3{
+    text-align: center;
+    font-size: x-large;
+    justify-content: space-between;
+
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+img{
+    width: 400px;
+}
+
+#masvendidos{
+    align-items: center;
+}
+ 
+button{
+    background-color: rgb(192, 193, 194);
+    color: #252424;
+    padding: 17px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+    max-width: 500px;
+    width: 100%;
+    font-size: large;
+    padding-top: 10px;
+}
+
+#Generos{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#Historia{
+    text-align: center;
+}
