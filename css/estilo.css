@@ -1,15 +1,19 @@
-#Noticia1 img{
-    justify-content: center;
-    padding-left: 300px;
-    padding-right: 300px;
-    width: 600px;
-}
-
 #Noticia1{
     display: flex;
     justify-content: center;
     margin-top: 80px;
-    margin-right: 400px;
+
+}
+
+#Noticia1{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#Noticia1 img{
+    width: 600px;
+    margin-right: 10px;
+    padding-left: 20px;
 }
 
 #Noticia2{
@@ -30,6 +34,14 @@
     padding-left: 20px;
 }
 
+#textonoticia1{
+    margin-top: 30px;
+}
+
+#textonoticia2{
+    margin-top: 50px;
+}
+
 #Logo{
     text-align: center;
 }
@@ -43,7 +55,7 @@ ul{
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
 }
@@ -67,30 +79,85 @@ p{
 }
 
 img{
-    width: 400px;
+    width: 450px;
 }
 
 #masvendidos{
-    align-items: center;
+    margin-left: 500px;
 }
  
 button{
-    background-color: rgb(192, 193, 194);
-    color: #252424;
+    background-color: rgb(30, 120, 255);
+    color: rgb(255, 255, 255);
     padding: 17px 15px;
     border-radius: 20px;
-    font-size: 16px;
+    font-size: 20px;
     max-width: 500px;
     width: 100%;
-    font-size: large;
     padding-top: 10px;
+    
 }
 
-#Generos{
+.Generos{
     text-align: center;
     padding-top: 50px;
 }
 
+
 #Historia{
     text-align: center;
+}
+
+body{
+    text-align: center;
+}
+
+.historia1{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.historia2{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.img1{
+    display: flex;
+}
+
+.Menu{
+    background-color: rgb(30, 120, 255);
+    border-radius: 30px;
+}
+
+#vendido10, #vendido9, #vendido8, #vendido7, #vendido6, #vendido5, #vendido4, #vendido3, #vendido2, #vendido1{
+    display: flex;
+}
+
+#numero10, #numero9, #numero8, #numero7, #numero6, #numero5, #numero4, #numero3, #numero2, #numero1{
+    display: flex;
+    margin-top: 50px;
+}
+
+#masjugados{
+    margin-left: 500px;
+}
+
+#nuncaluz{
+    margin-top: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.generos{
+    margin-top: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
